@@ -44,4 +44,11 @@ export class Pagina1Component implements OnInit, OnChanges, DoCheck, AfterConten
   ngOnDestroy(): void {
     console.log('ngOnDestroy');
   }
+
+
+  // --- ---
+  
+  nombre: string = 'Agustin';
+
+  guardar():void {};
 }
